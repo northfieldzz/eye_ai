@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+opencv-python_headless = "==4.5.5.64"
+requests = "==2.27.1"
+nnabla-ext-cuda110 = "==1.28.0"
+
+[dev-packages]
+sphinx = "*"
+sphinx-rtd-theme = "*"
+
+[requires]
+python_version = "3.9"
